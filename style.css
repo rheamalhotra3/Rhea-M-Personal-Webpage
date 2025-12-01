@@ -1,0 +1,123 @@
+/* GENERAL PAGE STYLE */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background: #ffeef7;  /* soft pastel pink */
+  color: #444;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  background: #ffb3d9; /* brighter pink */
+  padding: 12px;
+  box-shadow: 0 2px 5px rgba(255, 105, 180, 0.3);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.05rem;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #ffe6f2;
+  text-shadow: 0 0 10px white;
+}
+
+/* HOME HEADER */
+.header-home {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(135deg, #ffb3d9, #ffcce6);
+  color: white;
+  border-bottom: 5px solid #ff99cc;
+}
+
+.header-home h1 {
+  font-size: 2.5rem;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-home p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* PROFILE PICTURE */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+/* MAIN CONTENT BOXES */
+.content {
+  max-width: 850px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.25);
+  border: 2px solid #ffd6e8;
+}
+
+.content h2 {
+  color: #d63384; /* elegant pink text */
+  border-bottom: 2px dashed #ffb3d9;
+  padding-bottom: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* TABLE STYLING */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+th, td {
+  border: 1px solid #ffcce6;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+thead th {
+  background: #ffb3d9;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background: #fff0fa;
+}
+
+tbody tr:hover {
+  background: #ffe6f4;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 18px 0;
+  background: #ffb3d9;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 50px;
+  box-shadow: 0 -2px 5px rgba(255, 105, 180, 0.2);
+}
