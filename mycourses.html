@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses — Rhea Malhotra</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="courses.html">Courses</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <h2>Courses This Semester</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Systems & Tech for Managers</th>
+          <th>3</th>
+          <th>Mon/Wed</th>
+          <th>2:30 PM - 3:45 PM </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Corporate Finance</td>
+          <td>3</td>
+          <td>Mon/Wed</td>
+          <td>10:00 AM – 11:15 AM</td>
+        </tr>
+        <tr>
+          <td>Investment Analysis</td>
+          <td>3</td>
+          <td>Tue/Thu</td>
+          <td>2:00 PM – 3:15 PM</td>
+        </tr>
+        <tr>
+          <td>Financial Modeling</td>
+          <td>3</td>
+          <td>Mon/Wed</td>
+          <td>1:00 PM – 2:15 PM</td>
+        </tr>
+        <tr>
+          <td>Managerial & Financial Accounting</td>
+          <td>3</td>
+          <td>Tue/Thu</td>
+          <td>9:30 AM – 10:45 AM</td>
+        </tr>
+        <tr>
+          <td>Business Data Networks & Cybersecurity</td>
+          <td>56217</td>
+          <td>3</td>
+          <td>Fri</td>
+          <td>12:00 PM – 2:45 PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Rhea Malhotra</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
